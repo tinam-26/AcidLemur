@@ -1,6 +1,20 @@
-on_edge_left = false;
-on_edge_right = false;
-on_edge_above = false;
-on_edge_below = false;
-
 sprinting = false;
+
+enum States {
+	Regular,
+	Pushing
+}
+
+enum GrabAxis {
+	none,
+	horizontal,
+	vertical
+}
+
+
+
+state = States.Regular
+
+
+grabbed_object = noone
+grab_orientation = GrabAxis.none
