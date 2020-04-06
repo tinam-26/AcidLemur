@@ -75,43 +75,33 @@
             "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
         },
         {
-            "id": "df2b37fe-bdb9-4034-a09f-9756bbdb0696",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
-        },
-        {
-            "id": "bf4bc24d-aa57-466b-9c62-c9f7f19b10f5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 73,
-            "eventtype": 8,
-            "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
-        },
-        {
-            "id": "abdb8616-743d-4836-9fac-0eee2f5ee00d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "a3cb742d-05b0-450d-9267-68fa7af12e08",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
-        },
-        {
             "id": "1bae11e1-23ae-41cb-ba16-b14e0036310d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 69,
-            "eventtype": 5,
+            "eventtype": 9,
+            "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
+        },
+        {
+            "id": "f0429887-a663-4cd4-82b1-fdc4e60e9d4e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "5a10a318-16a4-4d03-8b62-c6c0e439b3ba",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
+        },
+        {
+            "id": "954ee3b6-1bc7-4e54-bebc-63052bca2f8b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "a788ab46-4ee3-4e42-b144-0b55439186d5",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "ce55e5fe-c40f-4f44-80cc-21165cea164d"
         }
     ],
@@ -184,7 +174,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "130",
             "varName": "reach",
             "varType": 1
         },
