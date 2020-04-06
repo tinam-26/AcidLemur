@@ -20,3 +20,10 @@ if grabbed{
 	audio_play_sound(snd_hiss,1,0);
 	instance_destroy(self);
 }
+else if(room == room_attack){
+	image_index = obj_player.attack_sprite;
+	x = 1500
+	y = 500
+	image_xscale = 2
+	image_yscale = 2
+}
