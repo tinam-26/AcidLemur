@@ -1,0 +1,1 @@
+obj_attack_controller.cat_state = attack.fed;
