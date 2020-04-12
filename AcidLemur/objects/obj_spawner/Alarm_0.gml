@@ -12,7 +12,7 @@ if(instance_number(obj_cat) < maxCapacity){
 			spawnY = spawnableCoords[i, 1]
 			//show_debug_message(spawnX)
 			//show_debug_message(spawnY)
-			instance_create_layer(spawnX, spawnY, "Instances", obj_cat)
+			instance_create_layer(spawnX, spawnY, "player_units", obj_cat)
 			isOccupied[i] = true
 			//show_debug_message("cat spawned")
 			break;

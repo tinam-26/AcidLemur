@@ -1,10 +1,49 @@
 {
-    "id": "16aba16e-8aec-484b-8e5f-acd5623c5715",
+    "id": "a788ab46-4ee3-4e42-b144-0b55439186d5",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_cat",
     "eventList": [
-        
+        {
+            "id": "b5ff4f1d-522a-4b3c-a134-54d276f9c174",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "a788ab46-4ee3-4e42-b144-0b55439186d5"
+        },
+        {
+            "id": "8aa7d031-c272-43c0-ad35-fca70892e431",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a788ab46-4ee3-4e42-b144-0b55439186d5"
+        },
+        {
+            "id": "be5c5911-156e-40a8-a08f-b9431e61bfcf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "a788ab46-4ee3-4e42-b144-0b55439186d5"
+        },
+        {
+            "id": "17a371b5-2a7b-4336-bcd9-33e19220075c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 8,
+            "m_owner": "a788ab46-4ee3-4e42-b144-0b55439186d5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,8 +61,79 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
-    "solid": false,
+    "properties": [
+        {
+            "id": "918d87b2-8184-4b84-bc7b-13d1acb01d0b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "snd_meow",
+            "varName": "unit_sound",
+            "varType": 5
+        },
+        {
+            "id": "aa889b0b-0026-4684-9299-853aeddb28d7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_meow",
+            "varName": "unit_alert_sprite",
+            "varType": 5
+        },
+        {
+            "id": "cb35805e-ccf4-4532-9bde-b5f649808556",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "145",
+            "varName": "unit_sound_timer",
+            "varType": 1
+        },
+        {
+            "id": "60596763-0ce8-4a5a-953a-e55625c76549",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "unit_alert_x_offset",
+            "varType": 1
+        },
+        {
+            "id": "bf8efb7b-0a0c-42e0-8c57-3679158d6bd3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-128",
+            "varName": "unit_alert_y_offset",
+            "varType": 1
+        }
+    ],
+    "solid": true,
     "spriteId": "dbb8c975-c603-4f02-a860-5897e88385e9",
     "visible": true
 }

@@ -54,7 +54,7 @@
             "resourceFilter": 1023,
             "value": "3",
             "varName": "maxCapacity",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "c1b4f359-fa6a-4a15-b787-0b56e929f780",
@@ -68,7 +68,7 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "respawnInterval",
-            "varType": 0
+            "varType": 1
         }
     ],
     "solid": false,
