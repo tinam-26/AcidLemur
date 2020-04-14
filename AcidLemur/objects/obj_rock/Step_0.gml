@@ -1,14 +1,15 @@
-if point_distance(x,y,obj_player.x,obj_player.y) < obj_player.reach{
-	nearby_player = obj_player
-	if grabbed{
-		vspeed = nearby_player.vspeed;
-		hspeed = nearby_player.hspeed;
-	}
-		
+/// @description Insert description here
+// You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+depth = 1
+if grabbed and nearby_player != noone{
+	hspeed = nearby_player.hspeed
+	vspeed = nearby_player.vspeed
 }
-else{
-	nearby_player = noone;
-	grabbed = false;
-	vspeed = 0
+if nearby_player == noone{
+	grabbed = false
 	hspeed = 0
+	vspeed = 0
 }

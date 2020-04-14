@@ -17,17 +17,12 @@ if(room == room_attack){
 else{
 	visible = true;
 }
+var closest = instance_nearest(x,y,obj_game_object_parent)
+if closest != noone
+	nearby_object = point_distance(x,y,closest.x,closest.y) < reach ? closest : noone;
 
-
-var closest = instance_nearest(x,y,obj_cat);
-if	(closest == noone or closest.is_visible != true or point_distance(x,y,closest.x,closest.y) >= reach)
-	closest = instance_nearest(x,y,obj_rock);
-
-if closest != noone {
-	if point_distance(x,y,closest.x,closest.y) < reach 
-		nearby_object = closest.id;
-	else{
-		closest.grabbed = false;
+if nearby_object != noone{
+	if point_distance(x,y,nearby_object.x,nearby_object.y) > reach {
 		nearby_object = noone;
 	}
 }

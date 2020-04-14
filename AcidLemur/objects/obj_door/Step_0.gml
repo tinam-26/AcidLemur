@@ -1,0 +1,1 @@
+sprite_index = locked ? spr_debug_door_locked : spr_debug_door;

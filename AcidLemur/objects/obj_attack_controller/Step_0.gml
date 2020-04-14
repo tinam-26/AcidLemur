@@ -30,9 +30,11 @@ switch(cat_state){
 if(cat_state == attack.catched){
 	with(obj_player){
 		total_cats += 1;
-		room_goto(last_room)
+		room_goto(global.last_room)
+
 		visible = true; 
 	}
+	instance_destroy(global.selected)
 }
 
 cat_state = attack.no;

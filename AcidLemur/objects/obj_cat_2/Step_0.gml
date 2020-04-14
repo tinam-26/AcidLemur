@@ -3,9 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-if y < 100 and vspeed < 0{
-	vspeed *= -1
-}
-if y > 800 and vspeed > 0{
-	vspeed *= -1
-}
+
+depth = 100 // ew
+image_speed = 0; // double ew
+

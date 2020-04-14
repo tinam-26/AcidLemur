@@ -1,4 +1,4 @@
-//if not grabbing or grab_orientation == GrabAxis.vertical
-vspeed = (sprinting? sprint_speed : walk_speed);
-image_angle = 180;
-
+//if not grabbing or grab_orientation == GrabAxis.
+if global.in_menu == false{
+	vspeed = (sprinting? sprint_speed : walk_speed);
+}
