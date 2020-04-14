@@ -21,8 +21,3 @@ var closest = instance_nearest(x,y,obj_game_object_parent)
 if closest != noone
 	nearby_object = point_distance(x,y,closest.x,closest.y) < reach ? closest : noone;
 
-if nearby_object != noone{
-	if point_distance(x,y,nearby_object.x,nearby_object.y) > reach {
-		nearby_object = noone;
-	}
-}
