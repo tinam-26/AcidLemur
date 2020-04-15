@@ -9,13 +9,19 @@ if (!keyboard_check(vk_up) and !keyboard_check(vk_down))
 	vspeed = 0;
 
 if(room == room_attack){
-	//TODO: change sprite to player's attack sprite (remove visible = false)
-	visible = false
+	//TODO: change sprite to player's attack sprite 
+	//change to right facing sprite?
+	x = 500
+	y = 900
+	image_xscale = 2
+	image_yscale = 2
 	hspeed = 0;
 	vspeed = 0; 
 }
 else{
 	visible = true;
+	image_xscale = 1
+	image_yscale = 1
 }
 
 
