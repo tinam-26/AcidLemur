@@ -21,9 +21,8 @@ if grabbed{
 	instance_destroy(self);
 }
 else if(room == room_attack){
-	image_index = obj_player.attack_sprite;
+	if time > 0 { time -= 0.05; }
+	image_speed = 0 
 	x = 1500
-	y = 500
-	image_xscale = 2
-	image_yscale = 2
+	y = 900
 }

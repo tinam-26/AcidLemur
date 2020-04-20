@@ -1,9 +1,16 @@
+cat_is_attack = false 
 switch(cat_state){
 	case attack.pet:
-		cat_health -= irandom_range(2,7)
+		cat_health -= irandom_range(1,5)
+		cat_is_attack = true
 		break;
 	case attack.fed:
-		cat_health -= 10; 
+		if(cat_food >= 1){
+			with(obj_food){
+				obj_food.visible = true
+				path_start(pth_food_throw, 10, path_action_stop, true) 
+			}
+		}
 		break;
 	case attack.catch:
 		if(cat_health <= 5){
@@ -36,3 +43,17 @@ if(cat_state == attack.catched){
 }
 
 cat_state = attack.no;
+
+with(obj_food){
+	if(path_position == 1){
+		visible = false; 
+		x = xstart;
+		y = ystart; 
+		path_position = 0
+		with(obj_attack_controller){
+			cat_is_attack = true;
+			cat_health -= 5
+			cat_food -= 1	
+		}
+	}
+}
