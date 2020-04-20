@@ -10,9 +10,12 @@ if got_the_bone == false{
 		//solid = false;
 		path_start(path_dog_to_bowl,6,path_action_stop,true)
 		got_the_bone = true
+		image_speed = 1
+		unit_sprite = spr_dog_dancing
 	}
 }
 else{// HMM not working how i'd like
+	//image_speed = 1
 	unit_sprite = spr_dog_dancing
 }
 
