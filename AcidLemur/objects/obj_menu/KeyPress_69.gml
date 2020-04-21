@@ -2,15 +2,14 @@
 // You can write your code in this editor
 switch(selected){
 	case Options.Catch:
-	show_debug_message("global before goto: " + string(global.selected))
-
+		show_debug_message("global before goto: " + string(global.selected))
+		room_instance_add(room_attack,x,y,global.selected.object_index)
 		room_goto(room_attack)
-		global.selected.x = 500
-		global.selected.y = 500
-		global.selected.depth = 100
 		show_debug_message("global after goto: " + string(global.selected))
 		global.last_room = room;
+		//global.selected
 		instance_destroy(self);
+		instance_destroy(global.selected)
 		break;
 	case Options.Scare:
 		instance_destroy(global.selected)

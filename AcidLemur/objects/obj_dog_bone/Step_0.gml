@@ -4,6 +4,13 @@
 // Inherit the parent event
 event_inherited();
 
+//switch(nearby_player.sprite_index){
+
+
+//}
+
+
+
 if grabbed{
 	hspeed = nearby_player.hspeed
 	vspeed = nearby_player.vspeed
