@@ -9,6 +9,5 @@ enum attack{
 	no, 
 	catched
 }
-
 cat_state = attack.no;
 	

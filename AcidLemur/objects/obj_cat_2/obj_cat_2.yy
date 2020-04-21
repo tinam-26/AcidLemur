@@ -1,33 +1,14 @@
 {
-    "id": "4a91b012-f691-4e57-b1b5-6def9cc9d50f",
+    "id": "5ee8080e-911e-4ab1-afbb-2c8eeafb9f5b",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_cat_2",
     "eventList": [
-        {
-            "id": "e3de9bb5-c45c-493e-8e1b-7fbb01f58691",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4a91b012-f691-4e57-b1b5-6def9cc9d50f"
-        },
-        {
-            "id": "45e99504-6793-4a42-9153-ee91b8ccf953",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4a91b012-f691-4e57-b1b5-6def9cc9d50f"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "a788ab46-4ee3-4e42-b144-0b55439186d5",
+    "parentObjectId": "9e9ed959-4b67-4979-bbc3-304f78f5c415",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "f6d66057-f6d9-4e72-97a3-fc03c52bcfca",
+            "id": "4a48000d-c2c0-47f4-b979-63439022bf78",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -57,7 +38,7 @@
             "varType": 5
         },
         {
-            "id": "a09df148-010b-4f70-88b8-71cc5fb72cfa",
+            "id": "e270e1a1-f734-418d-98f0-33c409e4c018",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -71,7 +52,7 @@
             "varType": 5
         },
         {
-            "id": "ea079093-1c34-4b22-a5ed-cdca7ea2d4e5",
+            "id": "2f502c24-f675-4ebd-965c-eefd665ca7a2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -85,7 +66,7 @@
             "varType": 1
         },
         {
-            "id": "5c036990-8518-4071-ad28-c96dbd163226",
+            "id": "403423f6-a72e-4920-aa0c-14058e1eb7af",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -99,7 +80,7 @@
             "varType": 1
         },
         {
-            "id": "84ebe55b-2378-4bef-921a-fdb479ed378a",
+            "id": "f2f588cc-7778-4e2c-8790-9014bddd6a96",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,

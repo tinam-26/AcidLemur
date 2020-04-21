@@ -2,7 +2,7 @@
 
 //check if max capacity not reached,
 //spawn cat in spawnable location
-if(instance_number(obj_cat) < maxCapacity){
+if(instance_number(obj_cat) < maxCapacity and room != room_game_2){
 	
 	//loop through coordinaate array to find available location
 	for(i = 0; i < array_length_1d(spawnableCoords) + 1; i++){
@@ -12,7 +12,7 @@ if(instance_number(obj_cat) < maxCapacity){
 			spawnY = spawnableCoords[i, 1]
 			//show_debug_message(spawnX)
 			//show_debug_message(spawnY)
-			instance_create_layer(spawnX, spawnY, "player_units", obj_cat)
+			instance_create_layer(spawnX, spawnY, "Instances", obj_cat)
 			isOccupied[i] = true
 			//show_debug_message("cat spawned")
 			break;
