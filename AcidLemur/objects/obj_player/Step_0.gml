@@ -18,6 +18,7 @@ if (!keyboard_check(vk_up) and !keyboard_check(vk_down)
 if(room == room_attack){
 	//TODO: change sprite to player's attack sprite (remove visible = false)		//TODO: change sprite to player's attack sprite 
 	//visible = false		//change to right facing sprite?
+	sprite_index = spr_player_attack
 	x = 500
 	y = 900
 	image_xscale = 2

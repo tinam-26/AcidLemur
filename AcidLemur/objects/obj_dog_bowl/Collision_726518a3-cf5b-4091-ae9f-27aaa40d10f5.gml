@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// the player has placed the dog bone on the dog bowl, drop the bone and update some state
 other.grabbed = false
 other.hspeed = 0;
 other.vspeed = 0;

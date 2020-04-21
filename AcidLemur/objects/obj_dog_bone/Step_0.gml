@@ -1,16 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-// Inherit the parent event
 event_inherited();
 
-//switch(nearby_player.sprite_index){
-
-
-//}
-
-
-
+// the dog bone can be grabbed by the nearby player and follow it along
 if grabbed{
 	hspeed = nearby_player.hspeed
 	vspeed = nearby_player.vspeed

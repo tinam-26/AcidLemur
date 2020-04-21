@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+// naviagate menu items
 if selected < array_length_1d(options) -1
 	selected++

@@ -1,5 +1,7 @@
 randomize()
 global.selected = noone;
+
+// Options/optionString are used to items in context menus with cats
 enum Options {
 	Catch,
 	Scare,
@@ -9,6 +11,7 @@ optionString = [
 	"Scare Cat",
 ];
 
+// global state for maintaining progress through levels
 global.level_one_objectives = [false,false]
 global.level_two_objectives = [false,false]
 

@@ -1,6 +1,4 @@
-//other.y = y;
-//other.x = 0  + (other.sprite_width/2) * 3
-
+// if the door is not locked, we want to move player to a new room
 if !locked{
 	room_goto(door_to_room);
 	switch(transition_type){

@@ -8,7 +8,7 @@ switch(cat_state){
 		if(cat_food >= 1){
 			with(obj_food){
 				obj_food.visible = true
-				path_start(pth_food_throw, 10, path_action_stop, true) 
+				path_start(path_food_throw, 10, path_action_stop, true) 
 			}
 		}
 		break;

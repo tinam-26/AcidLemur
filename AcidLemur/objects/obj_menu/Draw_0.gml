@@ -1,12 +1,7 @@
-// oMenu_Draw
+// draw the menu
 padding = 10;
 w = button_width + padding
 h = button_height * (1 + array_length_1d(options))
-
-//padding = 4;
-//w = 64 + padding * 2;
-//h = padding * 2;
-//depth = 0
 
 draw_set_color(c_black);
 draw_rectangle( x, y, x + w, y + h, false);

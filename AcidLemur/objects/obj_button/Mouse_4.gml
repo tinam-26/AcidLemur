@@ -1,4 +1,4 @@
-// oButton_LeftPressed
+// left mouse button click on the context menu
 switch( option){
 	case Options.Catch:
 		(global.selected).x = irandom( room_width - 64);
