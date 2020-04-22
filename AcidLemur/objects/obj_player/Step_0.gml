@@ -3,11 +3,11 @@
 x = clamp(x,0,room_width);
 y = clamp(y,0,room_height);
 
-if (!keyboard_check(vk_left) and !keyboard_check(vk_right) 
-	or keyboard_check(vk_left) and keyboard_check(vk_right))
+if (!keyboard_check(ord("A")) and !keyboard_check(ord("D")) 
+	or keyboard_check(ord("A")) and keyboard_check(ord("D")))
 	hspeed = 0;
-if (!keyboard_check(vk_up) and !keyboard_check(vk_down) 
-	or keyboard_check(vk_up) and keyboard_check(vk_down))
+if (!keyboard_check(ord("W")) and !keyboard_check(ord("S")) 
+	or keyboard_check(ord("W")) and keyboard_check(ord("S")))
 	vspeed = 0;
 
 
