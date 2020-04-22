@@ -23,7 +23,15 @@
             "mvc": "1.0",
             "objectId": "00b59bab-1cd0-4c6a-a71b-eb7ebc427253",
             "propertyId": "ab38858f-1be1-4cfd-a2ea-d9c69ef13d3d",
-            "value": "spr_rock_glowing"
+            "value": "spr_box_glowing"
+        },
+        {
+            "id": "6c37d9bf-f7ae-47ba-b91b-a04b737c541e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "00b59bab-1cd0-4c6a-a71b-eb7ebc427253",
+            "propertyId": "cc4dd76b-83e8-45a7-bb4a-8bb7f311eecf",
+            "value": "spr_box"
         }
     ],
     "parentObjectId": "00b59bab-1cd0-4c6a-a71b-eb7ebc427253",

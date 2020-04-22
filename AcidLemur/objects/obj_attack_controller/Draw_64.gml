@@ -10,3 +10,4 @@ show_debug_message(health_string)
 draw_text_transformed(400, 600, cat_food_string, 2, 2, 0)
 draw_text_transformed(700, 600, health_string, 2, 2, 0)
 draw_healthbar(1000, 600, 1200, 650, percent_health, c_white, c_red, c_lime, 0, true, false);
+// test

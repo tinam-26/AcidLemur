@@ -9,9 +9,12 @@ if(instance_exists(obj_menu)){speed =0} // another hack - cat would keep running
 if instance_exists(obj_mouse) {
 	if !chasing{
 		// if cat is not chasing the mouse, start chasing
-		chasing = true;
-		x = pounce_start_x
-		y = pounce_start_y
+		// this prevents both cats running at the mouse at the same time
+		if !instance_exists(obj_cat_3){
+			chasing = true;
+			x = pounce_start_x
+			y = pounce_start_y
+		}
 	}
 	// otherwise continue to run towards the mouse 
 	visible = true

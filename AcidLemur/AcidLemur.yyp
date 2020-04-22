@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "d1a141bd-0353-4691-9694-0965881a86d6",
+            "Value": {
+                "id": "afeede11-dda0-486b-a51e-4f4bf2ef2a56",
+                "resourcePath": "sprites\\spr_box_glowing\\spr_box_glowing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d21d16f3-8eb6-410e-8b89-d6faf5b8ae21",
             "Value": {
                 "id": "168d63a7-1e77-4206-a6ae-7a52cdb2dfbf",
