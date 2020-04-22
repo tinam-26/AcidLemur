@@ -2,7 +2,7 @@
 if global.in_menu == false{
 	vspeed = (sprinting? -sprint_speed : -walk_speed);
 	
-	if !keyboard_check(vk_down) and !keyboard_check(vk_right) and !keyboard_check(vk_left)
+	if !keyboard_check(ord("S")) and !keyboard_check(ord("D")) and !keyboard_check(ord("A"))
 		sprite_index = spr_player_walk_up
 		//sprite_index = spr_player_walk_left
 
