@@ -1,5 +1,8 @@
-//set alarm for 60 seconds
+// set alarm for 60 seconds
 alarm_set(0, room_speed*respawnInterval)
+// set 3 second alarm for spawing a mouse
+alarm_set(1, 90);
+
 
 //array of spawnable coordinates
 spawnableCoords[0, 0] = 100
