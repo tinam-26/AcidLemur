@@ -8,6 +8,7 @@ You'll need to move around the map and solve puzzles to catch some of them.
 
 Here are the controls:
 
-Arrow keys - movement
-W - attempt catch
-E - scare away
+WASD - movement
+E - interact
+R - restart game
+X - view achievements
