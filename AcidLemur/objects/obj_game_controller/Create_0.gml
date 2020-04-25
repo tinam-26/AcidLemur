@@ -15,3 +15,5 @@ optionString = [
 global.level_one_objectives = [false,false]
 global.level_two_objectives = [false,false]
 
+viewingCats = false
+

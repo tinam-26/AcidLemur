@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "947438c9-7356-4bbd-aec7-00026611f0d6",
+            "Value": {
+                "id": "7ca22caf-de40-45b3-98d1-beadcfce7a46",
+                "resourcePath": "fonts\\fnt_mono_title\\fnt_mono_title.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "9544ca16-6cc3-484e-a5a6-5e66ed663f37",
             "Value": {
                 "id": "24dccb27-f2b5-444e-9601-a148c460f9c9",
