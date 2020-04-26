@@ -17,3 +17,7 @@ global.level_two_objectives = [false,false]
 
 viewingCats = false
 
+// keep track of caught cats for achievements
+for(i=0; i<11; i++){
+	global.caught[i] = false;	
+}
