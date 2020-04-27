@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "room_debug_2",
+            "value": "noone",
             "varName": "door_to_room",
             "varType": 5
         },
