@@ -131,6 +131,20 @@
             "value": "-128",
             "varName": "unit_alert_y_offset",
             "varType": 1
+        },
+        {
+            "id": "d91d5dd6-e732-406c-9235-25d891ad4044",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cat_num",
+            "varType": 0
         }
     ],
     "solid": true,

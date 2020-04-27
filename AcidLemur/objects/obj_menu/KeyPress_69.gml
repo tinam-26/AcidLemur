@@ -18,7 +18,6 @@ switch(selected){
 		show_debug_message("global after goto: " + string(global.selected))
 		global.last_room = room;
 		instance_destroy(self);
-		instance_destroy(global.selected)
 		break;
 	case Options.Scare:
 		// scare the cat off allowing the game to continue
