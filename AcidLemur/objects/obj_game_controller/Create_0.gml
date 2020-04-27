@@ -1,5 +1,6 @@
 randomize()
 global.selected = noone;
+global.current_cat_num = -1
 
 // Options/optionString are used to items in context menus with cats
 enum Options {
@@ -17,3 +18,7 @@ global.level_two_objectives = [false,false]
 
 viewingCats = false
 
+// keep track of caught cats for achievements
+for(i=0; i<11; i++){
+	global.caught[i] = false;	
+}

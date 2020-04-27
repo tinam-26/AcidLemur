@@ -15,6 +15,9 @@ switch(cat_state){
 	case attack.catch:
 		if(cat_health <= 5){
 			cat_state = attack.catched;
+			// update cats caught
+			global.caught[global.current_cat_num] = true
+			global.current_cat_num = 0
 			break;
 		}else if(cat_health <= 10 && cat_health > 5){
 			catch_chance = irandom_range(6,10);
