@@ -13,9 +13,9 @@ if room == room_attack {
 else{
 	image_xscale = 1
 	image_yscale = 1
+	// check if cat caught
+	if(global.caught[cat_num]){
+		instance_destroy();	
+	}
 }
 
-// check if cat caught
-if(global.caught[cat_num]){
-	instance_destroy();	
-}
