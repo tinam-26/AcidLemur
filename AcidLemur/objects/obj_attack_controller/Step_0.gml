@@ -43,6 +43,8 @@ if(cat_state == attack.catched){
 	with(obj_player){
 		total_cats += 1;
 		audio_play_sound(snd_win,0,0)
+		x = xstart
+		y = ystart
 		room_goto(global.last_room)	
 	}
 }
