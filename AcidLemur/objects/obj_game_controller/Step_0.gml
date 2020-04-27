@@ -27,6 +27,8 @@ else if room == room_game_2{
 
 // check state to determine progress through the attack room
 else if room == room_attack{}
+else if room == room_start{}
+
 
 // we have an error
 else{ show_debug_message("ERROR")}

@@ -1,8 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-// Inherit the parent event
-event_inherited();
 global.selected = id;
 global.current_cat_num = cat_num;
 

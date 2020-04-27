@@ -1,10 +1,11 @@
 event_inherited();
 
-depth = 100 // ew
-image_speed = 0; // double ew
+image_speed = 0; 
+if(instance_exists(obj_menu)){speed =0} 
+
 if room == room_attack {
 	if time > 0 { time -= 0.05; }
-	//image_speed = 0 
+
 		x = 1500
 		y = 900
 		image_xscale = 6
