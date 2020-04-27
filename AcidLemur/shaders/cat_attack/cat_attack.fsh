@@ -1,10 +1,11 @@
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
-varying vec4 f_color;
+uniform vec4 f_color;
 
 void main()
 {
-    vec4 texColor = texture2D(gm_BaseTexture, v_vTexcoord);
-    gl_FragColor = vec4(0.7, 0.1, 0.7, texColor.a);
+	vec4 col = texture2D( gm_BaseTexture, v_vTexcoord );
+    col.rgb = mix(col.rgb, f_color.rgb, f_color.a);
+    gl_FragColor = v_vColour * col;
 }
 
