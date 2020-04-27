@@ -16,13 +16,8 @@ switch(cat_state){
 		if(cat_health <= 5){
 			cat_state = attack.catched;
 			// update cats caught
-			for(i=0; i<10; i++){
-				if(object_get_name(global.selected.object_index) == "obj_cat_"+string(i)){
-					global.caught[i] = true	
-				}
-				instance_destroy(global.selected)
-				global.selected = 0
-			}
+			global.caught[global.current_cat_num] = true
+			global.current_cat_num = 0
 			break;
 		}else if(cat_health <= 10 && cat_health > 5){
 			catch_chance = irandom_range(6,10);

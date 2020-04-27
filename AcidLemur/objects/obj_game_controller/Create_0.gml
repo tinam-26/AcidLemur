@@ -1,5 +1,6 @@
 randomize()
 global.selected = noone;
+global.current_cat_num = -1
 
 // Options/optionString are used to items in context menus with cats
 enum Options {

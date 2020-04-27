@@ -72,6 +72,14 @@
             "objectId": "00b59bab-1cd0-4c6a-a71b-eb7ebc427253",
             "propertyId": "ab38858f-1be1-4cfd-a2ea-d9c69ef13d3d",
             "value": "spr_meow"
+        },
+        {
+            "id": "1d40d12c-8854-4061-9fbd-cd8f158d8d0a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "9e9ed959-4b67-4979-bbc3-304f78f5c415",
+            "propertyId": "d91d5dd6-e732-406c-9235-25d891ad4044",
+            "value": "5"
         }
     ],
     "parentObjectId": "9e9ed959-4b67-4979-bbc3-304f78f5c415",
