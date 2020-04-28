@@ -4,4 +4,4 @@ grabbed = false;
 
 unit_sprite = sprite_index
 options = [Options.Catch, Options.Scare];
-time=10;
+time = 1
