@@ -2,7 +2,7 @@
     "id": "8e33484f-fca1-449b-8798-e6c56a885eae",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_cat_big_chonker",
+    "name": "spr_cat_11",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 128,
-    "xorig": 32,
-    "yorig": 42
+    "xorig": 35,
+    "yorig": 35
 }
