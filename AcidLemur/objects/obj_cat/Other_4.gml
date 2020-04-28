@@ -1,0 +1,1 @@
+//at_sprite = sprite_index

@@ -10,8 +10,9 @@ if(x < room_width/2)
 if room == room_attack {
 	if time > 0 { time -= 0.05; }
 	//image_speed = 0 
-		x = 1500
+		x = 1400
 		y = 900
+	
 		image_xscale = 6
 		image_yscale = 6.5
 }

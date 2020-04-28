@@ -18,8 +18,7 @@ switch(cat_state){
 		if(cat_health <= 5){
 			cat_state = attack.catched;
 			// update cats caught
-			global.caught[global.current_cat_num] = true
-			global.current_cat_num = 0
+		
 			break;
 		}else if(cat_health <= 10 && cat_health > 5){
 			catch_chance = irandom_range(6,10);
@@ -40,6 +39,8 @@ switch(cat_state){
 }
 
 if(cat_state == attack.catched){
+	global.caught[global.current_cat_num] = true
+	global.current_cat_num = 0
 	with(obj_player){
 		total_cats += 1;
 		audio_play_sound(snd_win,0,0)
