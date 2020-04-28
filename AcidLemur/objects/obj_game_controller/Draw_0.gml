@@ -1,11 +1,13 @@
 if viewingCats{
+	x = camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2);
+	y = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/2);
 	// Show cats caught
 	draw_roundrect_colour(
 		x - 400, y - 400, x + 400, y + 400,
 		c_dkgray, c_dkgray, false);
 	draw_set_halign(fa_center);
 	draw_set_font(fnt_mono_title);
-	draw_text_colour(x, 150, "Cats Captured", c_white, c_white, c_white, c_white, 1);
+	draw_text_colour(x, y - 350, "Cats Captured", c_white, c_white, c_white, c_white, 1);
 	draw_roundrect_colour(
 		x - 325, y - 250, x - 25, y - 150,
 		c_black, c_black, false);

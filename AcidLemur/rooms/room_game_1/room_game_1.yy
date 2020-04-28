@@ -35,6 +35,32 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "GUI",
+            "id": "1b577485-1ae4-4373-a3fd-431c307eccb7",
+            "depth": -100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_65D0DFFD","id": "ada4c042-b717-4a92-97ba-3906da0a4060","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_65D0DFFD","objId": "5354d3e3-8514-4b4a-b364-0b5d4a197cd6","properties": null,"rotation": 0,"scaleX": 3,"scaleY": 3,"mvc": "1.1","x": 768,"y": 512}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": true,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "004e090a-0292-4537-9cfc-542cc95ff307",
             "depth": -1,
@@ -81,37 +107,11 @@
             "visible": true
         },
         {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "GUI",
-            "id": "1b577485-1ae4-4373-a3fd-431c307eccb7",
-            "depth": 99,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-{"name": "inst_65D0DFFD","id": "ada4c042-b717-4a92-97ba-3906da0a4060","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_65D0DFFD","objId": "5354d3e3-8514-4b4a-b364-0b5d4a197cd6","properties": null,"rotation": 0,"scaleX": 3,"scaleY": 3,"mvc": "1.1","x": 768,"y": 512}
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": true
-        },
-        {
             "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Path_1",
             "id": "ea89e90d-f182-4bfb-befc-7739795e7e08",
             "colour": { "Value": 4278190335 },
-            "depth": 199,
+            "depth": 99,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -135,7 +135,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tiles_2",
             "id": "adb65e0c-c8c3-4212-932a-8cf89d2a660c",
-            "depth": 299,
+            "depth": 199,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -234,7 +234,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "rocksAndPlant",
             "id": "5386df1e-1b05-4d26-b706-ff43175322dd",
-            "depth": 399,
+            "depth": 299,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -333,7 +333,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "grassAndTrees",
             "id": "03fe6919-fd44-4308-b0bb-fe81ef4969ef",
-            "depth": 499,
+            "depth": 399,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
