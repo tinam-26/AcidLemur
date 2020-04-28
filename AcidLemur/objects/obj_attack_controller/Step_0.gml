@@ -3,6 +3,8 @@ switch(cat_state){
 	case attack.pet:
 		cat_health -= irandom_range(1,5)
 		cat_is_attack = true
+		obj_cat.time = 1;
+		//audio_play_sound(snd_meow,0,0) //this got annoying real quick
 		break;
 	case attack.fed:
 		if(cat_food >= 1){
@@ -40,23 +42,31 @@ switch(cat_state){
 if(cat_state == attack.catched){
 	with(obj_player){
 		total_cats += 1;
-		room_goto(global.last_room)
-		visible = true; 
+		audio_play_sound(snd_win,0,0)
+		x = xstart
+		y = ystart
+		room_goto(global.last_room)	
 	}
 }
 
 cat_state = attack.no;
 
+if(cat_health < 0){
+	cat_health = 0
+}
+
 with(obj_food){
 	if(path_position == 1){
 		visible = false; 
+		audio_play_sound(snd_crunch,0,0)
 		x = xstart;
 		y = ystart; 
 		path_position = 0
 		with(obj_attack_controller){
 			cat_is_attack = true;
-			cat_health -= 5
+			cat_health -= 10
 			cat_food -= 1	
 		}
+		obj_cat.time = 1;
 	}
 }
