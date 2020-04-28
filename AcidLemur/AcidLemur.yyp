@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "eac2125c-9a27-453a-80ee-1490a5b34450",
+            "Value": {
+                "id": "8470f381-a5b9-4259-80d9-9633c40530e3",
+                "resourcePath": "paths\\path3\\path3.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "eafed965-3a0a-49b7-873e-1293034dba54",
             "Value": {
                 "id": "d14c5bed-1c2b-4ae1-9e44-29dbb8d20c43",
