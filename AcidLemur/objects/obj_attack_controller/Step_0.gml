@@ -45,6 +45,7 @@ if(cat_state == attack.catched){
 		audio_play_sound(snd_win,0,0)
 		if global.current_cat_num == 10{
 			room_goto(room_win)
+			instance_destroy(obj_player)
 		}
 		else{
 			x = xstart
