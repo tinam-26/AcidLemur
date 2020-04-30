@@ -5,26 +5,31 @@ alarm_set(0, room_speed*respawnInterval)
 timeline_index = timeline0;
 timeline_loop = true;
 
-//array of spawnable coordinates
-spawnableCoords[0, 0] = 100
-spawnableCoords[0, 1] = 100
-spawnableCoords[1, 0] = 200
-spawnableCoords[1, 1] = 200
-spawnableCoords[2, 0] = 300
-spawnableCoords[2, 1] = 300
-
-//are coordinates occupied?
-isOccupied[0] = false
-isOccupied[1] = false
-isOccupied[2] = false
-
-// coordinates for spawning mice
-mouse_coords[0, 0] = 32
-mouse_coords[0, 1] = 500
-mouse_coords[1, 0] = 500
-mouse_coords[1, 1] = 500
-mouse_coords[2, 0] = 1500
-mouse_coords[2, 1] = 500
-
-// select random coordinates to spawn from
-// we could add more above to increase number of locations cats can start at
+if room == room_game_2{
+	//array of spawnable coordinates
+	spawnableCoords[0, 0] = 350
+	spawnableCoords[0, 1] = 470
+	spawnableCoords[1, 0] = 1200
+	spawnableCoords[1, 1] = 470
+	
+	//are coordinates occupied?
+	isOccupied[0] = false
+	isOccupied[1] = false
+	
+	// coordinates for spawning mice
+	mouse_coords[0, 0] = 415
+	mouse_coords[0, 1] = 930
+	mouse_coords[1, 0] = 1050
+	mouse_coords[1, 1] = 900
+}
+if room == room_game_3{
+	// select random coordinates to spawn from
+	spawnableCoords[0, 0] = irandom_range(1240, 1470)
+	spawnableCoords[0, 1] = irandom_range(690, 740)
+	spawnableCoords[1, 0] = irandom_range(360, 750)
+	spawnableCoords[1, 1] = irandom_range(440, 570)
+	
+	//are coordinates occupied?
+	isOccupied[0] = false
+	isOccupied[1] = false
+}

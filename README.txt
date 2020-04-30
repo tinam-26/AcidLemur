@@ -8,7 +8,18 @@ You'll need to move around the map and solve puzzles to catch some of them.
 
 Here are the controls:
 
-WASD - movement
-E - interact
+W - move up
+A - move left
+S - move down
+D - move right
+E - interact with object
 R - restart game
 X - view achievements
+arrow key up & down - switch options in cat interaction menu
+
+Cheat codes:
+
+0 - obtain all cats (except boss)
+1 - jump to room 1
+2 - jump to room 2
+3 - jump to room 3
