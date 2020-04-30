@@ -1,5 +1,5 @@
 event_inherited();
-depth = 1
+depth = 0
 
 // if the player is grabbing the box, we want to move with the player
 if grabbed and nearby_player != noone{
