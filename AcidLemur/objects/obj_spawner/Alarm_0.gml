@@ -12,7 +12,10 @@ if(instance_number(obj_cat) < maxCapacity and room != room_game_2){
 			spawnY = spawnableCoords[i, 1]
 			//show_debug_message(spawnX)
 			//show_debug_message(spawnY)
-			instance_create_layer(spawnX, spawnY, "Instances", obj_cat)
+			var cat_num = irandom_range(4, 9)
+			var cat_obj = asset_get_index("obj_cat_" + string(cat_num))
+			var cat = instance_create_layer(spawnX, spawnY, "Instances", cat_obj)
+			cat.image_speed = 0
 			isOccupied[i] = true
 			//show_debug_message("cat spawned")
 			break;
