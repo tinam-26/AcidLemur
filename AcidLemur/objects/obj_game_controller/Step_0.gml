@@ -35,6 +35,7 @@ else if room == room_game_2{
 }
 
 // check state to determine progress through the attack room
+else if room == room_game_3{}
 else if room == room_attack{}
 else if room == room_start{}
 
