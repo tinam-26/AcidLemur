@@ -33,3 +33,7 @@ else if room == room_start{}
 // we have an error
 else{ show_debug_message("ERROR")}
 	
+// check if game won
+if global.caught[10]{
+	alarm_set(0, room_speed*3)
+}

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1cef61cc-453c-4b0d-a7b8-45c0b24a932c",
+            "Value": {
+                "id": "85b1c105-76ff-4468-a1a2-89efd8a93f6a",
+                "resourcePath": "sprites\\spr_win\\spr_win.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1da3b266-93b6-4dbf-80f5-7e2a969757af",
             "Value": {
                 "id": "c03fe4df-3758-4e0d-b0df-81e31bf21432",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "83b5cbb7-6c3e-4f51-b2af-877f9280036b",
+            "Value": {
+                "id": "accd1b45-f9c9-4444-b942-9e65ca69de9f",
+                "resourcePath": "rooms\\room_win\\room_win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "862458a4-3b00-43de-b5c4-674ea8aaff7d",
             "Value": {
                 "id": "5c865427-41c4-4db7-89da-70c2623567ff",
@@ -620,6 +636,14 @@
                 "id": "0d0d9e52-c821-418e-929c-8a16dbe8e55f",
                 "resourcePath": "sprites\/spr_dog_bowl\/spr_dog_bowl.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9362c5c9-767c-4c3e-8fa2-ad352f255721",
+            "Value": {
+                "id": "346d66ce-10af-4cf3-b64e-da2d85ae8728",
+                "resourcePath": "objects\\obj_win\\obj_win.yy",
+                "resourceType": "GMObject"
             }
         },
         {
