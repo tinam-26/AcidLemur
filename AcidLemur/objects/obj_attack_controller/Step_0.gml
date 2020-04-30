@@ -40,13 +40,18 @@ switch(cat_state){
 
 if(cat_state == attack.catched){
 	global.caught[global.current_cat_num] = true
-	global.current_cat_num = 0
 	with(obj_player){
 		total_cats += 1;
 		audio_play_sound(snd_win,0,0)
-		x = xstart
-		y = ystart
-		room_goto(global.last_room)	
+		if global.current_cat_num == 10{
+			room_goto(room_win)
+		}
+		else{
+			x = xstart
+			y = ystart
+			room_goto(global.last_room)	
+		}
+		global.current_cat_num = 0
 	}
 }
 

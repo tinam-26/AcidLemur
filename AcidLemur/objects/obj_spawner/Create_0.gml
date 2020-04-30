@@ -23,13 +23,9 @@ if room == room_game_2{
 	mouse_coords[1, 1] = 900
 }
 if room == room_game_3{
-	// select random coordinates to spawn from
-	spawnableCoords[0, 0] = irandom_range(1240, 1470)
-	spawnableCoords[0, 1] = irandom_range(690, 740)
-	spawnableCoords[1, 0] = irandom_range(360, 750)
-	spawnableCoords[1, 1] = irandom_range(440, 570)
-	
-	//are coordinates occupied?
-	isOccupied[0] = false
-	isOccupied[1] = false
+	// select coordinates to spawn from
+	spawnableCoords[0, 0] = 1370
+	spawnableCoords[0, 1] = 710
+	spawnableCoords[1, 0] = 500
+	spawnableCoords[1, 1] = 500
 }
