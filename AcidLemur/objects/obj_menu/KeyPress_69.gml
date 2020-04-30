@@ -23,7 +23,6 @@ switch(selected){
 		// scare the cat off allowing the game to continue
 		instance_destroy(global.selected)
 		global.selected = noone
-		audio_stop_all()
 		audio_play_sound(snd_hiss,1,0);
 		instance_destroy(self);
 		break;
