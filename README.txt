@@ -19,6 +19,7 @@ arrow key up & down - switch options in cat interaction menu
 
 Cheat codes:
 
+0 - obtain all cats (except boss)
 1 - jump to room 1
 2 - jump to room 2
 3 - jump to room 3
